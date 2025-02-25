@@ -2,12 +2,7 @@ function Main() {
   return (
     <section className="relative  text-white overflow-hidden  ">
       <div className="absolute inset-0 bg-black opacity-50"></div>
-      <div
-        className="absolute inset-0 bg-cover bg-center "
-              
-
-      ></div>
-
+      <div className="absolute inset-0 bg-cover bg-center "></div>
       <div className="container mx-auto lg:px-12 px-5 py-24 md:py-32 relative z-10 lg:h-[90vh]">
         <div className="flex flex-col md:flex-row items-center justify-around">
           <div className="w-full md:w-1/2 mb-12 md:mb-0 relative">
@@ -18,7 +13,6 @@ function Main() {
                 Czimbalmos Kristóf
               </span>
             </h1>
-
             <p className="text-xl mb-5 text-gray-300 ">
                 Regisztrációs oldal
             </p>
