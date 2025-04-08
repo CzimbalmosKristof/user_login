@@ -23,6 +23,7 @@ function Menu() {
             <>
               <div className="px-4 hover:border-b-2 dark:hover:border-blue-500 hover:border-yellow-600 rounded-b-md"><Link to="/login">Login</Link></div>
               <div className="px-4 hover:border-b-2 dark:hover:border-blue-500 hover:border-yellow-600 rounded-b-md"><Link to="/register">Register</Link></div>
+              <div className="px-4 hover:border-b-2 dark:hover:border-blue-500 hover:border-yellow-600 rounded-b-md"><Link to="/images">Képek</Link></div>
             </>
           }
         </nav >
