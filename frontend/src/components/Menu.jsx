@@ -17,7 +17,7 @@ function Menu() {
           {token ? <>
             <div className="px-4 hover:border-b-2 dark:hover:border-blue-500 hover:border-yellow-600 rounded-b-md"><Link to="/vedett">Védett Infó</Link></div>
             <div className="px-4 hover:border-b-2 dark:hover:border-blue-500 hover:border-yellow-600 rounded-b-md"><a onClick={()=>{logout();navigate("/")}}>Kilépés</a></div>
-
+            <div className="px-4 hover:border-b-2 dark:hover:border-blue-500 hover:border-yellow-600 rounded-b-md"><Link to="/imageupload">Kép feltöltés</Link></div>
           </>
             :
             <>
